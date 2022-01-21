@@ -1,15 +1,15 @@
 {
-  "name": "vue-froala-wysiwyg",
+  "name": "vue-froala-wysiwyg4",
   "version": "4.0.8",
   "description": "Vue plugin for Froala WYSIWYG HTML rich text editor.",
   "author": "Froala Labs (https://www.froala.com/)",
   "license": "https://froala.com/wysiwyg-editor/terms/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/froala/vue-froala-wysiwyg.git"
+    "url": "https://github.com/roseforyou/vue-froala-wysiwyg4.git"
   },
   "bugs": {
-    "url": "https://github.com/froala/vue-froala-wysiwyg/issues"
+    "url": "https://github.com/roseforyou/vue-froala-wysiwyg4/issues"
   },
   "keywords": [
     "vue",
