@@ -13,7 +13,7 @@ base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
   filename: 'vue-froala.js',
-  library: 'vue-froala-wysiwyg',
+  library: 'vue-froala-wysiwyg4',
   libraryTarget: 'umd'
 }
 
