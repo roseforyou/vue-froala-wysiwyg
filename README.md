@@ -30,14 +30,14 @@ npm install vue-froala-wysiwyg --save
 #### main.js file:
 ```javascript
 //Import Froala Editor 
-import 'froala-editor/js/plugins.pkgd.min.js';
+import 'froala-editor4/js/plugins.pkgd.min.js';
 //Import third party plugins
-import 'froala-editor/js/third_party/embedly.min';
-import 'froala-editor/js/third_party/font_awesome.min';
-import 'froala-editor/js/third_party/spell_checker.min';
-import 'froala-editor/js/third_party/image_tui.min';
+import 'froala-editor4/js/third_party/embedly.min';
+import 'froala-editor4/js/third_party/font_awesome.min';
+import 'froala-editor4/js/third_party/spell_checker.min';
+import 'froala-editor4/js/third_party/image_tui.min';
 // Import Froala Editor css files.
-import 'froala-editor/css/froala_editor.pkgd.min.css';
+import 'froala-editor4/css/froala_editor.pkgd.min.css';
 
 // Import and use Vue Froala lib.
 import VueFroala from 'vue-froala-wysiwyg'
@@ -219,7 +219,7 @@ You can pass the custom buttons to the editor by following way:
 #### App.vue file:
 ```javascript
 <script>
-import FroalaEditor from 'froala-editor';
+import FroalaEditor from 'froala-editor4';
 
 FroalaEditor.DefineIcon('alert', {NAME: 'info', SVG_KEY: 'help'});
   FroalaEditor.RegisterCommand('alert', {

@@ -20,7 +20,7 @@ module.exports = {
       'src': path.resolve(__dirname, '../src'),
      
     },
-    modules: [path.join(__dirname, '../node_modules'),path.join(__dirname,'../node_modules/froala-editor/js')],
+    modules: [path.join(__dirname, '../node_modules'),path.join(__dirname,'../node_modules/froala-editor4/js')],
   },
   module: {
     rules: [{

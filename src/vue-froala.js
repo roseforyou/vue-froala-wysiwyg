@@ -1,4 +1,4 @@
-import FroalaEditor from 'froala-editor';
+import FroalaEditor from 'froala-editor4';
 export default (Vue, Options = {}) => {
 
   var froalaEditorFunctionality = {
